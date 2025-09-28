@@ -1,4 +1,5 @@
 import { Mail, MapPin, Phone, Twitter, Linkedin, Github } from "lucide-react";
+import aivraALogo from "@/assets/aivraa-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,9 +11,11 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-1 space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold gradient-text-animated">
-                AivraA
-              </h3>
+              <img 
+                src={aivraALogo} 
+                alt="AivraA - AI Intelligence Meets Imagination" 
+                className="h-8 w-auto"
+              />
               <p className="body-text max-w-sm">
                 Where Intelligence Meets Imagination. Transforming businesses with cutting-edge AI solutions.
               </p>
