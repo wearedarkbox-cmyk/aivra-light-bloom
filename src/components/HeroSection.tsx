@@ -4,7 +4,7 @@ import heroVisual from "@/assets/hero-visual.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Floating orbs */}
